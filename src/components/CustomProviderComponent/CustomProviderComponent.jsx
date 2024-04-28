@@ -233,6 +233,7 @@ export const UserProvider = ({ children }) => {
         handleInfoClose,
         catModal,
         catImage,
+        setCatMovies,
       }}
     >
       {children}

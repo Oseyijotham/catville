@@ -94,6 +94,7 @@ export const MovieDetails = () => {
                 src={movieLink}
                 allowFullScreen
                 className={css.frame}
+                title={movieId}
               >
                 Sorry, movie is not available or your browser does not support
                 embedded videos.

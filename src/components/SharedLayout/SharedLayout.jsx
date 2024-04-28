@@ -4,12 +4,12 @@ import {
   Header,
   Logo,
   Link,
-  Icon,
+  
   Frame,
   IconLabel,
   Symbol
 } from './SharedLayout.styled';
-import svg from './icons.svg';
+
 import { Suspense } from 'react';
 
 export const SharedLayout = () => {
@@ -21,6 +21,7 @@ export const SharedLayout = () => {
             <Frame role="img" aria-label="computer icon">
               <img
                 src="https://cdn-icons-png.flaticon.com/512/1998/1998592.png"
+                alt="Cat"
                 width="50px"
               />
             </Frame>

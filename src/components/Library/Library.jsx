@@ -1,8 +1,5 @@
 import { useUser } from '../CustomProviderComponent/CustomProviderComponent';
 import css from './Library.module.css';
-import svg from '../SharedLayout/icons.svg';
-import { Link } from 'react-router-dom';
-import { useParams } from 'react-router-dom';
 import { Loader } from '../Loader/Loader';
 import { LibraryModal } from '../LibraryModal/LibraryModal';
 

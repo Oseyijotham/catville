@@ -21,7 +21,7 @@ export const LibraryModal = () => {
                 <div>
                   <img
                     src={catImage}
-                    alt="Picture of Cat"
+                    alt="Cat Type"
                     height="200px"
                     className={css.catImage}
                   />
