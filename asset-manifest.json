@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/catville/static/css/main.bd2dd031.css",
+    "main.js": "/catville/static/js/main.cc9d14e1.js",
+    "static/css/433.297209e7.chunk.css": "/catville/static/css/433.297209e7.chunk.css",
+    "static/js/433.d9a34139.chunk.js": "/catville/static/js/433.d9a34139.chunk.js",
+    "static/css/512.62c0975a.chunk.css": "/catville/static/css/512.62c0975a.chunk.css",
+    "static/js/512.c292154f.chunk.js": "/catville/static/js/512.c292154f.chunk.js",
+    "static/css/76.0124a434.chunk.css": "/catville/static/css/76.0124a434.chunk.css",
+    "static/js/76.7a77693c.chunk.js": "/catville/static/js/76.7a77693c.chunk.js",
+    "static/css/168.db61bdb1.chunk.css": "/catville/static/css/168.db61bdb1.chunk.css",
+    "static/js/168.892de407.chunk.js": "/catville/static/js/168.892de407.chunk.js",
+    "static/css/690.d806ee0d.chunk.css": "/catville/static/css/690.d806ee0d.chunk.css",
+    "static/js/690.634227de.chunk.js": "/catville/static/js/690.634227de.chunk.js",
+    "static/css/390.b840298d.chunk.css": "/catville/static/css/390.b840298d.chunk.css",
+    "static/js/390.50978145.chunk.js": "/catville/static/js/390.50978145.chunk.js",
+    "static/js/572.8a430b65.chunk.js": "/catville/static/js/572.8a430b65.chunk.js",
+    "static/media/timeless-treasures-cats-in-the-library-fabric-Lg.jpg": "/catville/static/media/timeless-treasures-cats-in-the-library-fabric-Lg.69b468ad3ef75d14177c.jpg",
+    "static/media/icons.svg": "/catville/static/media/icons.6583bf02560f79b7c6455e48324d975c.svg",
+    "index.html": "/catville/index.html",
+    "main.bd2dd031.css.map": "/catville/static/css/main.bd2dd031.css.map",
+    "main.cc9d14e1.js.map": "/catville/static/js/main.cc9d14e1.js.map",
+    "433.297209e7.chunk.css.map": "/catville/static/css/433.297209e7.chunk.css.map",
+    "433.d9a34139.chunk.js.map": "/catville/static/js/433.d9a34139.chunk.js.map",
+    "512.62c0975a.chunk.css.map": "/catville/static/css/512.62c0975a.chunk.css.map",
+    "512.c292154f.chunk.js.map": "/catville/static/js/512.c292154f.chunk.js.map",
+    "76.0124a434.chunk.css.map": "/catville/static/css/76.0124a434.chunk.css.map",
+    "76.7a77693c.chunk.js.map": "/catville/static/js/76.7a77693c.chunk.js.map",
+    "168.db61bdb1.chunk.css.map": "/catville/static/css/168.db61bdb1.chunk.css.map",
+    "168.892de407.chunk.js.map": "/catville/static/js/168.892de407.chunk.js.map",
+    "690.d806ee0d.chunk.css.map": "/catville/static/css/690.d806ee0d.chunk.css.map",
+    "690.634227de.chunk.js.map": "/catville/static/js/690.634227de.chunk.js.map",
+    "390.b840298d.chunk.css.map": "/catville/static/css/390.b840298d.chunk.css.map",
+    "390.50978145.chunk.js.map": "/catville/static/js/390.50978145.chunk.js.map",
+    "572.8a430b65.chunk.js.map": "/catville/static/js/572.8a430b65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd2dd031.css",
+    "static/js/main.cc9d14e1.js"
+  ]
+}
