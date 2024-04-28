@@ -8,7 +8,7 @@ import { UserProvider } from './components/CustomProviderComponent/CustomProvide
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="goit-react-hw-05-movies">
+    <BrowserRouter basename="catville">
       <UserProvider>
         <App />
       </UserProvider>
