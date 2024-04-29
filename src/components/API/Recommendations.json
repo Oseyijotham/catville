@@ -16,11 +16,6 @@
 "poster_path": "https://image.tmdb.org/t/p/original/uYvCqvv5NvZGiVNT6OdyTUAD5G5.jpg"
 },
   {
-"id": 748783,
-"original_title": "The Garfield Movie",
-"poster_path": "https://image.tmdb.org/t/p/original/zK2sFxZcelHJRPVr242rxy5VK4T.jpg"
-},
-  {
 "id": 8920,
 "original_title": "Garfield",
 "poster_path": "https://image.tmdb.org/t/p/original/vqwTSWNLyH55g8kBT61s2DgNYEp.jpg"
@@ -39,6 +34,11 @@
 "id": 16460,
 "original_title": "Garfield Gets Real",
 "poster_path": "https://image.tmdb.org/t/p/original/cRlJEevXbt183BYBhUw3cvldp7C.jpg"
+},
+ {
+"id": 10112,
+"original_title": "The Aristocats",
+"poster_path": "https://image.tmdb.org/t/p/original/1BVOSmQUhphMgnTxnXyfQ9tL1Sc.jpg"
 }
 
 ]

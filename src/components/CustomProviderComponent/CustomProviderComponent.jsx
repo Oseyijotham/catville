@@ -33,13 +33,14 @@ export const UserProvider = ({ children }) => {
   const [catId, setCatId] = useState();
   const [catModal, setCatModal] = useState([]);
   const [catImage, setCatImage] = useState([]);
+  const [initLoaded, setInitLoader] = useState();
 
   const clearingFilmName = () => {
     setMovieName('');
   };
 
   useEffect(() => {
-    setLoadingStatus(true);
+    setInitLoader(true);
     trendingMovies()
       .then(response => {
         if (!response.ok) {
@@ -50,8 +51,6 @@ export const UserProvider = ({ children }) => {
       .then(response => {
         setMovies([...response.results]);
 
-        setLoadingStatus(false);
-
         //console.log(Home);
       })
       .catch(error => {
@@ -61,7 +60,7 @@ export const UserProvider = ({ children }) => {
   }, []);
 
   useEffect(() => {
-  setLoadingStatus(true);
+  setInitLoader(true);
   fetchBreeds()
     .then(response => {
       if (!response.ok) {
@@ -73,15 +72,12 @@ export const UserProvider = ({ children }) => {
     })
     .then(response => {
       setBreedList([...response]);
-
+      setInitLoader(false);
   
-      setTimeout(() => {
-         setLoadingStatus(false);
-       }, 10000);
-      console.log(response);
+      //console.log(response);
     })
     .catch(error => {
-      setLoadingStatus(false);
+      setInitLoader(false);
       console.error(`Error message ${error}`);
     });
 },[])
@@ -234,6 +230,7 @@ export const UserProvider = ({ children }) => {
         catModal,
         catImage,
         setCatMovies,
+        initLoaded,
       }}
     >
       {children}

@@ -1,6 +1,6 @@
 import { useUser } from '../CustomProviderComponent/CustomProviderComponent';
 import css from './Library.module.css';
-import { Loader } from '../Loader/Loader';
+import { Loader } from '../InitLoader/Loader';
 import { LibraryModal } from '../LibraryModal/LibraryModal';
 
 

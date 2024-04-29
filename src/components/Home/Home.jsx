@@ -1,7 +1,7 @@
 import { useUser } from '../CustomProviderComponent/CustomProviderComponent';
 import css from './Home.module.css';
 import { Link } from 'react-router-dom';
-import { Loader } from '../Loader/Loader';
+import { Loader } from '../InitLoader/Loader';
 import PropTypes from 'prop-types';
 
 export const Home = () => {

@@ -64,7 +64,7 @@
     font-family: 'Comic Sans Ms';
     font-weight: 700;
     background-color: #f0d1a5;
-    
+    width:650px;
 }
 
 .catDetailsInfo{
@@ -85,4 +85,11 @@
     border-radius: 5px;
     padding: 5px;
     margin-bottom: 5px;
+}
+
+.galleryFrame{
+  position: relative;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
 }
