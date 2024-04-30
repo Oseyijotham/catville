@@ -10,7 +10,7 @@ const Cast = lazy(() => import('../Cast/Cast'));
 const Reviews = lazy(() => import('../Reviews/Reviews'));
 const Cinema = lazy(() => import('../Cinema/Cinema'));
 const Library = lazy(() => import('../Library/Library'));
-
+const Gallery = lazy(() => import('../Gallery/Gallery'));
 
 export const App = () => {
 
@@ -25,6 +25,7 @@ export const App = () => {
         <Route path="*" element={<Home />} />
         <Route path="cinema" element={<Cinema />} />
         <Route path="Library" element={<Library />} />
+        <Route path="gallery" element={<Gallery />} />
       </Route>
     </Routes>
   );

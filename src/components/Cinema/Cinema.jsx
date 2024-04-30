@@ -4,6 +4,7 @@ import { useSearchParams } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Loader } from '../Loader/Loader';
+import { Button } from '../Button/Button';
 import PropTypes from 'prop-types';
 import css from './Cinema.module.css';
 
@@ -104,6 +105,7 @@ export const Cinema = () => {
           isLoading === false && <div>No Movies Found</div>
         )}
       </div>
+      <Button />
     </div>
   );
 };
